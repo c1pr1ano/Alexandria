@@ -1,0 +1,81 @@
+
+Nome : Alexandria
+
+	
+	Areas envolvidas : 
+		Financeira , Administrativa , Educacional , Controle de estoque. 
+
+	
+	Escopo : 
+		- Levantamento de requisitos
+		- Validação
+		- Implementação
+		- Testes
+		- Entrega
+		- Custo
+		
+
+	Objetivo do sistema : 
+		Uma melhor manipulação e organização do acervo da UFES. Facilitando o uso do usuario demonstrando dados reais do status dos livro preferidos ou desejados, assim como tambem facilitar a entrada de novos usuarios. 
+ 
+	Requisitos Funcionais :
+	   Funcionalidade por parte do aluno :
+		- Reserva do livro 
+		- Verificar acervo na biblioteca(estoque)
+		- Renovar o livro 
+		- Verificar multas(apenas visualiza)
+		- Solicita livro de outra unidade
+	
+  
+	   Funcionalidade por parte do Funcionario :
+		- Integração com o sistema interno da ufes (pelo numero de matricula)
+		- Criação de um novo usuario(aluno)
+		- Puxar o nada consta
+		- Ver o cadastro do aluno
+		- Inserir livros no acervo
+		- Renovar livro do aluno
+		- Devolução de livro
+		- Gerar a guia de recolhimento
+		- Emprestimo de livro
+		- Consultar o historico do aluno
+		- Verificar ultimos emprestimos do livro
+		- Registro de entrada na biblioteca
+		- Conferencia de emprestimo
+
+
+
+	Restrições : 
+		Segurança : O aluno pode apenas ver o seus dados e o acervo na biblioteca , não pode ver a quem os livros estão emprestados. Um usuario(aluno) não pode ser aberto em duas plataformas simultaneamentes. 
+		Desempenho : (FALTANDO)
+		Ambiente de Produção : 
+			- Prototipação : Pencil
+			- Backend : NodeJs
+			- Front-web funcionario/aluno :  ReactJS
+			- Banco de dados : Mysql
+		
+
+	Considerações adicionais :
+		Interoperabilidade entre o sistema da ufes com o da biblioteca
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
