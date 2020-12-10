@@ -1,0 +1,27 @@
+Comandos git : 
+	git init - transforma aquela pasta em um repositorio
+	git add remote (link do repo) - linka a pasta com um repositorio online
+	git add . - seleciona todos os arquivos modificados para subir na proxima versão
+	git commit -m 'comentario' - comentario principal da versão
+	git push origin (branch) - manda os arquivos pra branch escolhida
+	git pull - atualiza os arquivos em maquina/locais
+	git checkout - muda de branch
+	git checkout - cria um clone da branch que voce esta
+	git status - estado da sua branch
+
+	COMANDOS MAIS APROFUNDADOS - https://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+DICAS :
+
+	QUANDO LIGAR A MAQUINA E FOR TRABALHAR DAR O COMANDO git pull
+	
+
+	QUANDO FOR FAZER UM UPDATE NA SUA BRANCH FAÇA ESSA SERIE DE COMANDOS
+		git add .
+		git status
+		git commit -m 'seu comentario' / faça um comentario do que você fez bem resumido
+		git push origin (branch escolhida)
+		
+
+
+QUALQUER DUVIDA PESQUISE !
